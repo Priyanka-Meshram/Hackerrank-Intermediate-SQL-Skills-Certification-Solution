@@ -6,7 +6,7 @@ Certificate can be viewed [here](https://www.hackerrank.com/certificates/42a8f74
 2 Questions are asked, as of now 2 questions will be asked from these questions, provided the solution also:
 ## Programs / Questions
 
-- [Company Employees](Company_employees_SQL.txt)
-- [Country Code](Country_Code_SQL.txt)
-- [Merit Rewards](Merit_Rewards_SQL.txt)
-- [Student Analysis](Student_Analysis.txt)
+- [Customer Spending](Customer_Spending.txt)
+- [Invoice Spending](Invoice_Spending.txt)
+- [Product Without Sales](Product_Without_Sales.txt)
+- [Profitable Stocks](Profitable_Stocks.txt)
