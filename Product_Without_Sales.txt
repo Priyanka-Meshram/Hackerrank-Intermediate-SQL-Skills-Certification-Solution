@@ -1,0 +1,15 @@
+---Product Without Sales
+
+SELECT 
+    p.sku,
+    p.product_name
+FROM
+    PRODUCT AS p
+LEFT JOIN
+    INVOICE_ITEM AS ii
+ON 
+    p.id = ii.product_id
+WHERE
+    ii.product_id IS NULL
+ORDER BY
+    p.sku ASC;
