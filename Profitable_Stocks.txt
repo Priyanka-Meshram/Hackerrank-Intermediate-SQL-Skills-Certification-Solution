@@ -1,0 +1,14 @@
+---Profitable Stocks
+
+SELECT 
+     pt.stock_code
+FROM
+     price_today AS pt
+JOIN
+     price_tomorrow AS ptm 
+ON
+    pt.stock_ciode = ptm.stock_code
+WHERE
+    ptm.price > pt.price
+ORDER BY
+    pt.stock_code ASC;
